@@ -25,10 +25,10 @@ print 'cpu_time_user[%.2f%%]'%(cpu_times.user/float(cpu_total_time)*100)
 print psutil.net_io_counters()
 print psutil.net_io_counters(pernic=True)['en0']
 print psutil.users()[0]
-print psutil.boot_time()
 import datetime
 print 'bootTime ',datetime.datetime.fromtimestamp(psutil.boot_time()).strftime('%Y %m %d %H:%M:%S')
 
-
-
+print psutil.pids()
+for proc in psutil.process_iter(attrs=['pid', 'name']):
+	print proc.info
 

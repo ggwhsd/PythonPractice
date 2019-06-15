@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"IN"
+			],
+			[
+				"check",
+				"check_ip"
+			],
+			[
+				"ip",
+				"ip_list"
+			],
+			[
+				"disk",
+				"disk_info"
+			],
+			[
 				"x",
 				"x_values"
 			],
@@ -16,93 +32,20 @@
 	"buffers":
 	[
 		{
-			"file": "PythonTime.py",
+			"file": "AOP01_Base/dnsIPConnectTool.py",
 			"settings":
 			{
-				"buffer_size": 496,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "logic.py",
-			"settings":
-			{
-				"buffer_size": 1167,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "PythonBase.py",
-			"settings":
-			{
-				"buffer_size": 1162,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "module1.py",
-			"settings":
-			{
-				"buffer_size": 32,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "numpyStudy.py",
-			"settings":
-			{
-				"buffer_size": 1047,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "subplotStudy.py",
-			"settings":
-			{
-				"buffer_size": 591,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pandasSeries.py",
-			"settings":
-			{
-				"buffer_size": 826,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "huigui.py",
-			"settings":
-			{
-				"buffer_size": 251,
+				"buffer_size": 1354,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "huigui"
+				"name": "dnsIPConnectTool.py"
 			}
 		},
 		{
-			"file": "random_walk.py",
+			"file": "AOP01_Base/dsnpythonStudy.py",
 			"settings":
 			{
-				"buffer_size": 647,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "from random import choice"
-			}
-		},
-		{
-			"file": "testRandomWalk.py",
-			"settings":
-			{
-				"buffer_size": 152,
+				"buffer_size": 167,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -172,16 +115,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/GUGW/Desktop/PythonStudy"
+		"/Users/GUGW/Desktop/PythonStudy",
+		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base"
 	],
 	"file_history":
 	[
+		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/psutilStduy.py",
+		"/Users/GUGW/Desktop/PythonStudy/file.py",
+		"/Users/GUGW/Desktop/PythonStudy/huigui.py",
+		"/Users/GUGW/Desktop/PythonStudy/logic.py",
+		"/Users/GUGW/Desktop/PythonStudy/PythonTime.py",
+		"/Users/GUGW/Desktop/PythonStudy/module1.py",
+		"/Users/GUGW/Desktop/PythonStudy/PythonBase.py",
+		"/Users/GUGW/Desktop/PythonStudy/numpyStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/subplotStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/pandasSeries.py",
+		"/Users/GUGW/Desktop/PythonStudy/random_walk.py",
+		"/Users/GUGW/Desktop/PythonStudy/testRandomWalk.py",
 		"/Users/GUGW/Desktop/PythonStudy/data.csv",
 		"/Users/GUGW/Desktop/PythonStudy/closeprice.csv",
 		"/Users/GUGW/Desktop/CPP/CPPStudy/VS2017DesignPattern/DesignPattern/Decpratpr.h",
 		"/Users/GUGW/Desktop/PythonStudy/dataframe.xls",
-		"/Users/GUGW/Desktop/PythonStudy/PythonTime.py",
-		"/Users/GUGW/Desktop/PythonStudy/PythonBase.py",
 		"/Users/GUGW/Desktop/CPP/CPPStudy/VS2017Project/Practice/Cpp11_Function_Study.h",
 		"/Users/GUGW/Desktop/CPP/CPPStudy/VS2017Project/Practice/pointerToMember.h",
 		"/Users/GUGW/Desktop/test.py",
@@ -220,6 +174,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"__file__",
 			"plt"
 		],
 		"highlight": false,
@@ -238,234 +193,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "PythonTime.py",
+					"file": "AOP01_Base/dnsIPConnectTool.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 496,
+						"buffer_size": 1354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								496,
-								496
+								606,
+								606
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "logic.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "PythonBase.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								722,
-								726
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 238.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "module1.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "numpyStudy.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1047,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								409,
-								382
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "subplotStudy.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								591,
-								591
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "pandasSeries.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								825,
-								825
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "huigui.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"auto_name": "huigui",
+							"auto_name": "dnsIPConnectTool.py",
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -474,52 +224,28 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 8,
-					"file": "random_walk.py",
+					"buffer": 1,
+					"file": "AOP01_Base/dsnpythonStudy.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 647,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
-							]
-						],
-						"settings":
-						{
-							"auto_name": "from random import choice",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "testRandomWalk.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								152
+								165,
+								165
 							]
 						],
 						"settings":
@@ -530,7 +256,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -564,7 +290,7 @@
 		"cols":
 		[
 			0.0,
-			0.324972509932,
+			0.408256752152,
 			1.0
 		],
 		"rows":
@@ -616,7 +342,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
