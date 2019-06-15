@@ -1,0 +1,5 @@
+seq,ticker,secShortName,tradeDate,closePrice
+0,000001,pingan,2017-06-20,9.12
+1,000002,wanke,2017-06-20,21.03
+2,000004,guonong,2017-06-20,27.03
+
