@@ -14,3 +14,9 @@
 
 * dnspython 解析dns协议的库。
 
+* difflib 比较文本字符串，并且输出差异性
+
+* filecmp 比较文件、目录差异性
+
+
+
