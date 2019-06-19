@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"work",
+				"workbook"
+			],
+			[
+				"xlsx",
+				"xlsxwriter"
+			],
+			[
+				"CONN",
+				"CONNECT_TIME"
+			],
+			[
+				"per",
+				"PRETRANSFER_TIME"
+			],
+			[
+				"COn",
+				"CONNECT_TIME"
+			],
+			[
 				"destin",
 				"destination_files"
 			],
@@ -47,42 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 251,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "AOP02_monitor/fielcmpStudy.py",
-			"settings":
-			{
-				"buffer_size": 1621,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "fielcmpStudy.py"
-			}
-		},
-		{
-			"file": "logic.py",
-			"settings":
-			{
-				"buffer_size": 1167,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "huigui.py",
-			"settings":
-			{
-				"buffer_size": 251,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -150,16 +134,23 @@
 	[
 		"/Users/GUGW/Desktop/PythonStudy",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base",
-		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor"
+		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor",
+		"/Users/GUGW/Desktop/PythonStudy/AOP3_operationData",
+		"/Users/GUGW/Desktop/PythonStudy/testMkdir"
 	],
 	"file_history":
 	[
+		"/Users/GUGW/Desktop/PythonStudy/README.md",
+		"/Users/GUGW/Desktop/PythonStudy/AOP3_operationData/excelStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/pycurlStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/huigui.py",
+		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/fielcmpStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/logic.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/difflibStudy.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/diffFiles.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/diff.html",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/psutilStduy.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/dnsIPConnectTool.py",
-		"/Users/GUGW/Desktop/PythonStudy/logic.py",
 		"/Users/GUGW/Desktop/PythonStudy/pandasSeries.py",
 		"/Users/GUGW/Desktop/PythonStudy/PythonBase.py",
 		"/Users/GUGW/Desktop/PythonStudy/PythonTime.py",
@@ -169,7 +160,6 @@
 		"/Users/GUGW/Desktop/PythonStudy/module1.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/dsnpythonStudy.py",
 		"/Users/GUGW/Desktop/PythonStudy/file.py",
-		"/Users/GUGW/Desktop/PythonStudy/huigui.py",
 		"/Users/GUGW/Desktop/PythonStudy/random_walk.py",
 		"/Users/GUGW/Desktop/PythonStudy/data.csv",
 		"/Users/GUGW/Desktop/PythonStudy/closeprice.csv",
@@ -232,123 +222,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "AOP02_monitor/fielcmpStudy.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1621,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1445,
-								1433
-							]
-						],
-						"settings":
-						{
-							"auto_name": "fielcmpStudy.py",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 606.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "logic.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								708,
-								708
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1033.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "huigui.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -397,7 +272,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 73.0
+		"height": 216.0
 	},
 	"output.find_results":
 	{
