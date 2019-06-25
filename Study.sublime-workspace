@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"format",
+				"format_ave"
+			],
+			[
+				"set",
+				"set_border"
+			],
+			[
+				"for",
+				"format_title"
+			],
+			[
 				"work",
 				"workbook"
 			],
@@ -58,15 +70,20 @@
 			[
 				"x",
 				"x_values"
-			],
-			[
-				"set",
-				"setWidth"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 281,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -140,14 +157,16 @@
 	],
 	"file_history":
 	[
+		"/Users/GUGW/Desktop/PythonStudy/AOP3_operationData/rrdtoolDemo1.py",
+		"/Users/GUGW/Desktop/PythonStudy/AOP3_operationData/xlsxwriterStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/fielcmpStudy.py",
+		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/diffFiles.py",
 		"/Users/GUGW/Desktop/PythonStudy/README.md",
 		"/Users/GUGW/Desktop/PythonStudy/AOP3_operationData/excelStudy.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/pycurlStudy.py",
 		"/Users/GUGW/Desktop/PythonStudy/huigui.py",
-		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/fielcmpStudy.py",
 		"/Users/GUGW/Desktop/PythonStudy/logic.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/difflibStudy.py",
-		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/diffFiles.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP02_monitor/diff.html",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/psutilStduy.py",
 		"/Users/GUGW/Desktop/PythonStudy/AOP01_Base/dnsIPConnectTool.py",
@@ -222,8 +241,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 23.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
