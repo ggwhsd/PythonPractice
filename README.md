@@ -6,6 +6,10 @@
 
 * pandas 更高级的数学工具库，可以方便的操作excel
 
+# PythonBase
+
+关于Python语法使用的基础，socket、numpy等基础使用。
+
 # AOP01_Base 
 
 目录下都是具体工具库的使用示例，每一个文件都是一个工具库的使用。
@@ -19,4 +23,14 @@
 * filecmp 比较文件、目录差异性
 
 * xlsxwriter 用于编辑excel文件的有利工具库
+
+# AOP02
+
+关于文件的比较变化，使用pycur获取网页进行比较
+
+# AOP3
+
+如何操作excel表格
+
+
 
