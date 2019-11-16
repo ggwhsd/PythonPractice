@@ -7,33 +7,33 @@ arr = np.array(data)
 data1 = [data,data]
 arr1 = np.array(data1)
 
-print arr
-print arr1
+print(arr)
+print(arr1)
 
 zero = np.zeros((3,3))
-print zero
+print(zero)
 
 l = np.arange(1,10,2)
-print l
+print(l)
 
 
 float_data = arr1.astype(np.float64)
-print float_data
+print(float_data)
 
-print float_data[0,0]
-print float_data[0]
+print(float_data[0,0])
+print(float_data[0])
 
 
-print float_data*3
+print(float_data*3)
 
-print float_data.mean()
-print float_data.std()
+print(float_data.mean())
+print(float_data.std())
 
 import numpy.random as npr
 import matplotlib.pyplot as plt
 
-print npr.rand(3,2)
-print npr.rand(3,2)*2+2
+print(npr.rand(3,2))
+print(npr.rand(3,2)*2+2)
 
 
 #横坐标
