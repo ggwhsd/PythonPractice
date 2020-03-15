@@ -1,0 +1,2 @@
+def getPackageOk():
+	print("getPackageOk!")
