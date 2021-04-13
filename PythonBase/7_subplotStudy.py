@@ -5,7 +5,7 @@ import numpy.random as npr
 
 rn1 = npr.rand(size,2)
 rn2 = npr.randn(1000)
-print rn2
+print(rn2)
 rn3 = npr.randint(0,10,size)
 rang = [0, 10, 20, 30, 40]
 rn4 = npr.choice(rang, size=size)

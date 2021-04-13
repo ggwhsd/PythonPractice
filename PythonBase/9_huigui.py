@@ -6,7 +6,7 @@ plt.rcParams["axes.unicode_minus"]=False
 
 data = pd.read_csv('data.csv')
 
-print data.head()
+print(data.head())
 
 data.plot(figsize=(10,6))
 plt.ylabel('zhangdiefu')

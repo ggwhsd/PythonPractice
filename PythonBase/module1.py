@@ -1,3 +1,3 @@
 def addModule(i,j):
-	print i+j
+	print(i+j)
 
