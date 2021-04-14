@@ -25,7 +25,7 @@ class LCList:
 
 	def pop(self):
 		if self._rear is None:
-			print "no data"
+			print("no data")
 		p = self._rear.next
 		if self._rear is p:
 			self._rear = None
@@ -38,7 +38,7 @@ class LCList:
 			return
 		p = self._rear.next
 		while True:
-			print p.elem
+			print(p.elem)
 			if p is self._rear:
 				break
 			p = p.next

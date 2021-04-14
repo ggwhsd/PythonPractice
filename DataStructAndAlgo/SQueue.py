@@ -14,7 +14,7 @@ class SQueue:
 		self.__hello = "hello"
 
 	def is_empty(self):
-		return self._num == 0;
+		return self._num == 0
 
 	def peek(self):
 		if self._num == 0:
@@ -50,7 +50,7 @@ if __name__ == '__main__':
 	for i in range(100):
 		queue.enqueue(i)
 	while(queue.is_empty()==False):
-		print(queue.dequeue());
+		print(queue.dequeue())
 	print(queue._head)
 
 

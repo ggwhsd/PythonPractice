@@ -6,7 +6,7 @@ class SStack():
 		self._elems = []
 
 	def is_empty(self):
-		return self._elems = []
+		return self._elems == []
 
 	def top(self):
 		if self._elems == []:
