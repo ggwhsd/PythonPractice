@@ -4,13 +4,13 @@
 import sys
 import os
 
-print os.path.split(__file__)[-1] 
-print sys.argv[0] #输出当前路径包含文件名。
-print os.getcwd() #获取当前工作目录路径
-print os.path.abspath('.') #获取当前工作目录路径
-print os.path.abspath('test.txt') #获取当前目录文件下的工作目录路径
-print os.path.abspath('..') #获取当前工作的父目录 ！注意是父目录路径
-print os.path.abspath(os.curdir) #获取当前工作目录路径
+print(os.path.split(__file__)[-1] )
+print(sys.argv[0]) #输出当前路径包含文件名。
+print(os.getcwd()) #获取当前工作目录路径
+print(os.path.abspath('.')) #获取当前工作目录路径
+print(os.path.abspath('test.txt')) #获取当前目录文件下的工作目录路径
+print(os.path.abspath('..')) #获取当前工作的父目录 ！注意是父目录路径
+print(os.path.abspath(os.curdir)) #获取当前工作目录路径
 
 
 def show_file_name_method1(file_dir):
@@ -42,7 +42,7 @@ files = show_file_name_method2(root)
 print("###")
 #文件按照文件时间排序
 files.sort(key=lambda filename: os.path.getmtime(root+'//'+filename))
-print files
+print(files)
 
 #files.sort(key=lambda filename: filename)
 #print files
@@ -57,7 +57,7 @@ for file in files:
 		print("modify")
 		print(fullpath_filename)
 		print(new_fullpath_filename)
-		os.rename(fullpath_filename,new_fullpath_filename)
+		#os.rename(fullpath_filename,new_fullpath_filename)
 		index = index + 1
 		print("%s -> %s"%(file,new_filename))
 

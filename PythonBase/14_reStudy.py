@@ -11,7 +11,7 @@ if(matchObj):
     print(matchObj.group(1))
     print(matchObj.group(2))
 
-matchObj = re.match(r'n(.*) to (.*) you','nice to me you, nice to meet you',re.IGNORECASE);
+matchObj = re.match(r'n(.*) to (.*) you','nice to me you, nice to meet you',re.IGNORECASE)
 if(matchObj):
     print(matchObj.group(1))
     print(matchObj.group(2))
