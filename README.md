@@ -10,7 +10,7 @@
 
 关于Python语法使用的基础，socket、numpy等基础使用。
 
-# AOP01_Base 
+# LibStudy
 
 目录下都是具体工具库的使用示例，每一个文件都是一个工具库的使用。
 
@@ -24,20 +24,18 @@
 
 * xlsxwriter 用于编辑excel文件的有利工具库
 
-# AOP02
+* 关于文件的比较变化，使用pycur获取网页进行比较
 
-关于文件的比较变化，使用pycur获取网页进行比较
-
-# AOP3
-
-如何操作excel表格
+* 如何操作excel表格
 
 # DataAndStruct
 
 利用python编写的数据结构：link、queue、stack、tree等。
 
-#PythonBase
 
-python基础语法的使用
+# QuantPractice
+
+利用jupyter进行学习量化方面。
+
 
 
