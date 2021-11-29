@@ -1,10 +1,3 @@
-# PythonPractice
-
-* matplotlib 库画图的
-
-* numpy 数学工具库
-
-* pandas 更高级的数学工具库，可以方便的操作excel
 
 # PythonBase
 
@@ -32,10 +25,27 @@
 
 利用python编写的数据结构：link、queue、stack、tree等。
 
+# PythonDllCallBack
+
+关于Python调用C++的dll代码。
+
+# PyQt5Examples
+
+关于Python中PyQt5的使用，主要是信号槽的使用。
 
 # QuantPractice
 
-利用jupyter进行学习量化方面。
+* 利用jupyter进行学习量化方面。
+
+* matplotlib 库画图的
+
+* numpy 数学工具库
+
+* pandas 更高级的数学工具库，可以方便的操作excel
+
+# tensorflowStudy
+
+* tensorflowStudy 2.6.2 入门案例
 
 
 
