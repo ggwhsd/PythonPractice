@@ -1,8 +1,10 @@
 # -*- coding: UTF-8 -*-
 
 import math
+from turtle import color
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plot
 
 '''
 线性回归的算法，算法由数学推导而来。
@@ -30,7 +32,14 @@ xArr = [1970,1975,1980,1985,1990,1995,2000,2005]
 yArr = [325.68,331.15,338.69,345.90,354.19,360.88,369.48,379.67]
 predict=linerRegression(xArr,yArr)
 print(predict(2010))
+print(predict(2015))
+xArr.append(2010)
+yArr.append(predict(2010))
 
+xArr.append(2015)
+yArr.append(predict(2015))
+plot.plot(xArr,yArr,'ro-')
+plot.show()
 
 #print(pd.Series(np.array(yArr)).rolling(5).mean())
 
