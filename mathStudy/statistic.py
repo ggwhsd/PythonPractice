@@ -7,7 +7,8 @@ import matplotlib.pyplot as plot
 xArr = [1,3,6,10,15,21]
 yArr = [7,11,17,25,35,47]
 
-
+plot.plot(xArr,yArr)
+plot.show()
 
 
 print("样本协方差矩阵，显示的四个元素， cov(x,x),cov(x,y),cov(y,x),cov(y,y)。 "+ str(np.cov(xArr,yArr)))
